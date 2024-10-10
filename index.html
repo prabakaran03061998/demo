@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+      function openMenu(){
+        if( document.getElementById("menu").style.display === "none"){
+          document.getElementById("menu").style.display="flex"
+        }else{
+             document.getElementById("menu").style.display="none"
+        }
+      }
+    </script>
 </head>
+
 <body>
-    <h1> Git Demo</h1>
-    <h1> Git 1  dgdgdgdf</h1>
+    <div class="nav">
+        <div class="title">
+            <h3>Prodify Info</h3>
+        </div>
+        <div id="menu" class="menus">
+            <a href="#"> Home</a>
+            <a href="#"> Services</a>
+            <a href="#prd"> Product</a>
+            <a href="#"> Contacts</a>
+        </div>
+    <button onclick="openMenu()" class="menu-btn"> <i class="material-icons">dehaze</i></button>
+    </div>
+    <div class="container1">
+        <div class="content1">
+            <h1>Welcome to Prodify</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam perspiciatis magnam reiciendis aliquam
+                eum, fuga quas tenetur rem doloribus possimus maxime aut cupiditate nostrum velit corporis mollitia
+                aliquid quia vitae!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam quaerat nostrum iure architecto
+                distinctio! Inventore consectetur ullam iure accusamus minus repellat, libero, doloribus odio deleniti
+                porro velit placeat ut adipisci.
+            </p>
+            <button>Get Started</button>
+        </div>
+        <div class="image1">
+            <img src="./images/dash.png" width="300" height="250" alt="dashboard" />
+        </div>
+    </div>
+    <div class="container2">
+        <h1>Who we Are</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius esse, nemo, dolore modi error placeat illo
+            necessitatibus quo nostrum numquam, maxime fuga eveniet blanditiis quam. Maiores doloremque dolorum
+            veritatis obcaecati nemo nam laboriosam, voluptatum sunt, cumque officiis expedita vel animi ea, pariatur
+            odio eligendi aut non? Impedit, repellendus quo rem, expedita ipsam corrupti ab modi inventore et voluptas
+            sunt ad quasi! Pariatur, velit distinctio impedit in ea eius quam. Magni ipsum eius odio rerum perspiciatis
+            dolor corporis sit laboriosam adipisci incidunt commodi, modi natus animi ratione, accusamus obcaecati
+            suscipit exercitationem veritatis. Corrupti natus ex dolorum non numquam illo nostrum ipsum distinctio,
+            rerum, beatae iure optio, et atque autem sit deleniti fugiat explicabo magni animi voluptatem inventore
+            obcaecati quas dolores. Ipsa fuga quod exercitationem laboriosam ducimus reprehenderit voluptates expedita
+            repudiandae beatae molestiae. Modi adipisci quae ab minima atque vitae provident doloremque corrupti tenetur
+            nam assu.</p>
+        <div class="images_service">
+            <img src="./images/13530658_5252835.jpg" width="200" height="200" />
+            <img src="./images/13746503_5340737.jpg" width="200" height="200" />
+            <img src="./images/22896759_6670916.jpg" width="200" height="200" />
+        </div>
+    </div>
+    <div class="container3">
+        <h1>Services</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius esse, nemo, dolore modi error placeat illo
+            necessitatibus quo nostrum numquam, maxime fuga eveniet blanditiis quam. Maiores doloremque dolorum
+            veritatis obcaecati nemo nam laboriosam, voluptatum sunt, cumque officiis expedita vel animi ea, pariatur
+            odio eligendi aut non? Impedit, repellendus quo rem, expedita ipsam corrupti ab modi inventore et voluptas
+            sunt ad quasi! Pariatur, velit distinctio impedit in ea eius quam. Magni ipsum eius odio rerum perspiciatis
+            dolor corporis sit laboriosam adipisci incidunt commodi, modi natus animi ratione, accusamus obcaecati
+            suscipit exercitationem veritatis. Corrupti natus ex dolorum non numquam illo nostrum ipsum distinctio,
+            rerum, beatae iure optio, et atque autem sit deleniti fugiat explicabo magni animi voluptatem inventore
+            obcaecati quas dolores. Ipsa fuga quod exercitationem laboriosam ducimus reprehenderit voluptates expedita
+            repudiandae beatae molestiae. Modi adipisci quae ab minima atque vitae provident doloremque corrupti tenetur
+            nam assu.</p>
+    </div>
+    <div class="container3" id="prd">
+        <h1>Product</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius esse, nemo, dolore modi error placeat illo
+            necessitatibus quo nostrum numquam, maxime fuga eveniet blanditiis quam. Maiores doloremque dolorum
+            veritatis obcaecati nemo nam laboriosam, voluptatum sunt, cumque officiis expedita vel animi ea, pariatur
+            odio eligendi aut non? Impedit, repellendus quo rem, expedita ipsam corrupti ab modi inventore et voluptas
+            sunt ad quasi! Pariatur, velit distinctio impedit in ea eius quam. Magni ipsum eius odio rerum perspiciatis
+            dolor corporis sit laboriosam adipisci incidunt commodi, modi natus animi ratione, accusamus obcaecati
+            suscipit exercitationem veritatis. Corrupti natus ex dolorum non numquam illo nostrum ipsum distinctio,
+            rerum, beatae iure optio, et atque autem sit deleniti fugiat explicabo magni animi voluptatem inventore
+            obcaecati quas dolores. Ipsa fuga quod exercitationem laboriosam ducimus reprehenderit voluptates expedita
+            repudiandae beatae molestiae. Modi adipisci quae ab minima atque vitae provident doloremque corrupti tenetur
+            nam assu.</p>
+    </div>
+    <div class="container3">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius esse, nemo, dolore modi error placeat illo
+            necessitatibus quo nostrum numquam, maxime fuga eveniet blanditiis quam. Maiores doloremque dolorum
+            veritatis obcaecati nemo nam laboriosam, voluptatum sunt, cumque officiis expedita vel animi ea, pariatur
+            odio eligendi aut non? Impedit, repellendus quo rem, expedita ipsam corrupti ab modi inventore et voluptas
+            sunt ad quasi! Pariatur, velit distinctio impedit in ea eius quam. Magni ipsum eius odio rerum perspiciatis
+            dolor corporis sit laboriosam adipisci incidunt commodi, modi natus animi ratione, accusamus obcaecati
+            suscipit exercitationem veritatis. Corrupti natus ex dolorum non numquam illo nostrum ipsum distinctio,
+            rerum, beatae iure optio, et atque autem sit deleniti fugiat explicabo magni animi voluptatem inventore
+            obcaecati quas dolores. Ipsa fuga quod exercitationem laboriosam ducimus reprehenderit voluptates expedita
+            repudiandae beatae molestiae. Modi adipisci quae ab minima atque vitae provident doloremque corrupti tenetur
+            nam assu.</p>
+    </div>
 </body>
+
 </html>
